@@ -9,7 +9,6 @@ Welcome to the OIBSIP Internship Tasks repository! This repository contains thre
   - [Task 1: Landing Page](#task-1-landing-page)
   - [Task 2: Personal Portfolio](#task-2-personal-portfolio)
   - [Task 3: Temperature Converter](#task-3-temperature-converter)
-- [Progress](#progress)
 - [What I Have Learned](#what-i-have-learned)
 - [Acknowledgements](#acknowledgements)
 
@@ -21,45 +20,20 @@ Welcome to the OIBSIP Internship Tasks repository! This repository contains thre
 
 ## Tasks Overview
 
-### Task 1: Landing Page
+### Task 1: Landing Page | [Live Demo.](https://oibsip-task01-landing-page.netlify.app/)
 
 **Description:**  
 The Landing Page task involves creating a visually appealing and responsive landing page for a hypothetical product or service. This task demonstrates skills in layout design and responsive web design.
 
-### Task 2: Personal Portfolio
+### Task 2: Personal Portfolio | [Live Demo. Currently Unavailable]()
 
 **Description:**  
 The Personal Portfolio task is about designing and developing a personal portfolio website. This portfolio showcases personal projects, skills, and contact information, serving as an online resume. The task highlights abilities in web design and content organization.
 
-### Task 3: Temperature Converter
+### Task 3: Temperature Converter | [Live Demo. Currently Unavailable]()
 
 **Description:**  
 The Temperature Converter task involves building a web application that converts temperatures between Celsius, Fahrenheit, and Kelvin. This task focuses on creating interactive and functional web applications using JavaScript for dynamic content manipulation.
-
-## Progress
-
-### Task 1: Landing Page
-
-- [x] Initial setup
-- [ ] HTML structure
-- [ ] CSS styling
-
-### Task 2: Personal Portfolio
-
-- [x] Initial setup
-- [ ] HTML structure
-- [ ] CSS styling
-
-### Task 3: Temperature Converter
-
-- [x] Initial setup
-- [ ] HTML structure
-- [ ] CSS styling
-- [ ] JavaScript functionality
-
-## Live Links
-
-Currently, the tasks are in progress. Live links will be available soon.
 
 ## What I Have Learned
 
