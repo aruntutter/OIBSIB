@@ -12,6 +12,9 @@ function updateTemperatures() {
       let kelvin = (celsius + 273.15).toFixed(2);
       fahrenheitInput.value = fahrenheit;
       kelvinInput.value = kelvin;
+      localStorage.setItem("celsius", celsius);
+      localStorage.setItem("fahrenheit", fahrenheit);
+      localStorage.setItem("kelvin", kelvin);
     }
   } else if (document.activeElement === fahrenheitInput) {
     let fahrenheit = parseFloat(fahrenheitInput.value);
@@ -20,6 +23,9 @@ function updateTemperatures() {
       let kelvin = (((fahrenheit - 32) * 5) / 9 + 273.15).toFixed(2);
       celsiusInput.value = celsius;
       kelvinInput.value = kelvin;
+      localStorage.setItem("celsius", celsius);
+      localStorage.setItem("fahrenheit", fahrenheit);
+      localStorage.setItem("kelvin", kelvin);
     }
   } else if (document.activeElement === kelvinInput) {
     let kelvin = parseFloat(kelvinInput.value);
@@ -28,6 +34,9 @@ function updateTemperatures() {
       let fahrenheit = (((kelvin - 273.15) * 9) / 5 + 32).toFixed(2);
       celsiusInput.value = celsius;
       fahrenheitInput.value = fahrenheit;
+      localStorage.setItem("celsius", celsius);
+      localStorage.setItem("fahrenheit", fahrenheit);
+      localStorage.setItem("kelvin", kelvin);
     }
   }
 }
