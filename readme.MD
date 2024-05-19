@@ -36,7 +36,7 @@ The Personal Portfolio task is about designing and developing a personal portfol
 
 ### Task 3: Temperature Converter
 
-- [Live Demo. unavailable]()
+- [Live Demo.](https://oibsip-task03-temperature-converter.netlify.app/)
 
 **Description:**  
 The Temperature Converter task involves building a web application that converts temperatures between Celsius, Fahrenheit, and Kelvin. This task focuses on creating interactive and functional web applications using JavaScript for dynamic content manipulation.
