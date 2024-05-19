@@ -35,3 +35,12 @@ function updateTemperatures() {
 celsiusInput.addEventListener("input", updateTemperatures);
 fahrenheitInput.addEventListener("input", updateTemperatures);
 kelvinInput.addEventListener("input", updateTemperatures);
+
+function clearFields() {
+  celsiusInput.value = "";
+  fahrenheitInput.value = "";
+  kelvinInput.value = "";
+  localStorage.removeItem("celsius");
+  localStorage.removeItem("fahrenheit");
+  localStorage.removeItem("kelvin");
+}
