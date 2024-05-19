@@ -35,5 +35,93 @@ li {
   list-style: none;
 }
 
+.container {
+  background-image: url("../assets/images/bg-img02.svg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 
-@media screen and (min-width: 576px) {}
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.converter-card {
+  background: rgba(255, 255, 255, 0.063);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.173);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 450px;
+  height: 500px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.converter-card .title {
+  font-size: 20px;
+  text-align: center;
+  padding: 10px 0;
+  color: #fff;
+}
+
+.converter-card .title i {
+  font-size: 22px;
+  color: #ffffffd2;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* justify-content: center; */
+  gap: 40px;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.input input {
+  width: 210px;
+  padding: 10px 10px;
+  background: none;
+  border-radius: 6px;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.173);
+}
+
+.input-container .input span {
+  color: #fff;
+  font-size: 22px;
+  margin-left: 5px;
+}
+
+.converter-card .btn {
+  margin-bottom: 20px;
+}
+
+.converter-card .btn button {
+  padding: 7px 30px;
+  background: none;
+  cursor: pointer;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.173);
+}
+
+.converter-card .btn button:hover {
+  border-radius: 8px;
+}
+
+/* Media Query */
+@media screen and (max-width: 460px) {
+  .converter-card {
+    width: 95vw;
+    height: 500px;
+  }
+}
