@@ -35,5 +35,82 @@ li {
   list-style: none;
 }
 
+/* Aside Container*/
+
+aside {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0 2.8rem;
+  max-width: 270px;
+  height: 100vh;
+  background-color: #000000;
+  overflow-y: auto;
+  z-index: 100;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-img>img {
+  margin-top: 2.5rem;
+  width: 170px;
+  border-radius: 50%;
+  border: 5px solid #ffffff;
+}
+
+.name>h3 {
+  margin-top: 14px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  color: #fff;
+}
+
+.options-container {
+  text-align: center;
+  margin: 5rem 1rem;
+}
+
+.options-container>ul>li {
+  margin-bottom: 1.6rem;
+  color: rgb(170, 177, 184);
+}
+
+.options-container>ul>li>a {
+  color: #ffffff;
+  text-decoration: none;
+  position: relative;
+}
+
+.options-container>ul>li>a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 100%;
+  bottom: -2px;
+  background-color: #fff;
+  height: 2px;
+  transition: right 0.3s ease;
+}
+
+.options-container>ul>li>a:hover::after {
+  right: 0;
+}
+
+.icons-container>ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.icons-container>ul>li>a>i {
+  font-size: 22px;
+  color: #fff;
+}
 
 @media screen and (min-width: 576px) {}
