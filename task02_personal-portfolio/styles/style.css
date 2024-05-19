@@ -860,4 +860,23 @@ p {
   margin: 1.5rem auto 0;
 }
 
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  padding: 15px;
+}
+
+.footer p {
+  color: #4c4d4d;
+}
+
+.footer p span {
+  font-size: 17px;
+  font-weight: lighter;
+  color: #FD7E14;
+}
+
 @media screen and (min-width: 576px) {}
