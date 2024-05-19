@@ -53,3 +53,17 @@ function clearFields() {
   localStorage.removeItem("fahrenheit");
   localStorage.removeItem("kelvin");
 }
+
+function loadStoredValues() {
+  if (localStorage.getItem("celsius") !== null) {
+    celsiusInput.value = localStorage.getItem("celsius");
+  }
+  if (localStorage.getItem("fahrenheit") !== null) {
+    fahrenheitInput.value = localStorage.getItem("fahrenheit");
+  }
+  if (localStorage.getItem("kelvin") !== null) {
+    kelvinInput.value = localStorage.getItem("kelvin");
+  }
+}
+
+window.addEventListener("load", loadStoredValues);
