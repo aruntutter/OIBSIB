@@ -403,4 +403,207 @@ p {
   margin-top: 10px;
 }
 
+/* Resume */
+
+.resume {
+  padding-top: 4.5rem;
+}
+
+.resume-bg-text {
+  position: relative;
+}
+
+.resume-bg-text h1 {
+  color: #EEF0F1;
+  margin: 0;
+}
+
+.resume-above-text {
+  position: absolute;
+  top: 334.5%;
+  left: 59.5%;
+  transform: translate(-50%, -50%);
+}
+
+.education-experience {
+  display: flex;
+  flex-direction: row;
+  padding: 3rem;
+  gap: 3rem;
+}
+
+.education-experience h1 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.education-container,
+.experience-container {
+  border: 1px solid rgb(230, 233, 236);
+  border-radius: 6px;
+  padding: 30px 30px 0px 30px;
+  margin-top: 1.5rem;
+}
+
+.education-container p,
+.experience-container p {
+  padding: 0;
+  line-height: 1rem;
+}
+
+.education-container h2,
+.experience-container h2 {
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.education-container h2,
+.education-container p,
+.experience-container h2,
+.experience-container p {
+  margin-bottom: 10px;
+}
+
+.education-container p:first-child,
+.experience-container p:first-child {
+  padding: 4px 6px;
+  width: fit-content;
+  color: #fff;
+  background-color: #FD7E14;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+}
+
+.education-container p:last-child,
+.experience-container p:last-child {
+  margin-bottom: 30px;
+  margin-top: 20px;
+  line-height: 1.8rem;
+  color: #4c4d4d;
+}
+
+.education-container p:nth-child(3),
+.experience-container p:nth-child(3) {
+  color: #fd1414;
+}
+
+.my-skills {
+  padding: 3rem;
+}
+
+.my-skills h1 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.tool-score {
+  width: 550px;
+  height: 9px;
+  background-color: #E9ECEF;
+  border: none;
+  border-radius: 5px;
+}
+
+.skill-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+.tools-name-score .score-web {
+  width: 357.5px;
+  height: 9px;
+  background-color: #FD7E14;
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.score-js {
+  width: 440px;
+  height: 9px;
+  background-color: #FD7E14;
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.score-firebase {
+  width: 330px;
+  height: 9px;
+  background-color: #FD7E14;
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.score-html {
+  width: 522.5px;
+  height: 9px;
+  background-color: #FD7E14;
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.score-react {
+  width: 385px;
+  height: 9px;
+  background-color: #FD7E14;
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.score-bootstrap {
+  width: 544.5px;
+  height: 9px;
+  background-color: #FD7E14;
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.cv-btn .fa-solid {
+  display: initial;
+  font-size: inherit;
+  background-color: transparent;
+  color: inherit;
+  padding: 0;
+  border-radius: 0;
+  box-shadow: none;
+  margin-left: 8px;
+}
+
+.cv-btn {
+  margin: 2rem auto 5rem;
+  width: fit-content;
+  font-size: 17px;
+  padding: 15px 35px;
+  color: #000;
+  border: 2px solid #000;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cv-btn a {
+  color: #000;
+  padding: 15px 35px;
+}
+
+.cv-btn a:hover {
+  color: #fff;
+}
+
+.cv-btn:hover {
+  color: #fff;
+  background-color: #FD7E14;
+  border: 2px solid #FD7E14;
+  border-radius: 50px;
+}
+
 @media screen and (min-width: 576px) {}
