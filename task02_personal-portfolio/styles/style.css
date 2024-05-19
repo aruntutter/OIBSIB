@@ -35,6 +35,10 @@ li {
   list-style: none;
 }
 
+.aside-home {
+  display: flex;
+}
+
 /* Aside Container*/
 
 aside {
@@ -92,7 +96,7 @@ aside {
   left: 0;
   right: 100%;
   bottom: -2px;
-  background-color: #fff;
+  background-color: #FD7E14;
   height: 2px;
   transition: right 0.3s ease;
 }
@@ -111,6 +115,292 @@ aside {
 .icons-container>ul>li>a>i {
   font-size: 22px;
   color: #fff;
+}
+
+/* Right */
+.right {
+  margin-left: 260px;
+}
+
+/* Home */
+.home-container {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.home-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.home-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.home-text>h2 {
+  font-weight: 600;
+  font-size: 28px;
+  color: #fdf0d5;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.home-text>h1 {
+  font-size: 4rem;
+  font-weight: 500;
+  margin: 17px auto;
+  color: rgb(56, 57, 57);
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 0px 15px;
+  border: none;
+  border-radius: 20px;
+}
+
+.home-text>h3 {
+  color: #000;
+  font-weight: 500;
+  font-size: 26px;
+}
+
+.home-text>h4 {
+  color: #000;
+  font-weight: 500;
+  font-size: 26px;
+  padding-top: 5px;
+}
+
+.home-text>button {
+  margin-top: 30px;
+  padding: 17px 35px;
+  font-size: 18px;
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  border-radius: 30px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.home-text>button:hover {
+  background-color: rgba(255, 255, 255, 0.6);
+  color: #000;
+}
+
+.home-text>button>a {
+  color: #fff;
+  padding: 17px 35px;
+}
+
+.home-text>button>a:hover {
+  color: #000;
+}
+
+/* About */
+.about-me {
+  height: 100vh;
+  padding: 3rem;
+  margin-bottom: 4rem;
+}
+
+.about-me-title {
+  text-align: center;
+}
+
+.bg-text {
+  position: relative;
+}
+
+.bg-text>h1 {
+  margin: 40px 0;
+  font-size: 8rem;
+  font-weight: 600;
+  color: rgb(242, 244, 244);
+}
+
+.above-text {
+  position: absolute;
+  top: 123%;
+  left: 59.5%;
+  transform: translate(-50%, -50%);
+}
+
+.above-text>h2 {
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+.above-text hr {
+  width: 80px;
+  height: 2px;
+  background-color: #FD7E14;
+  border: none;
+  margin: 5px auto;
+}
+
+.about-me-summary {
+  display: flex;
+}
+
+.summary {
+  width: 65%;
+}
+
+.summary h2,
+span {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.summary span {
+  color: #FD7E14;
+}
+
+.summary h2,
+p {
+  padding: 5px 0px;
+  line-height: 2rem
+}
+
+.summary p {
+  color: #4c4d4d;
+}
+
+.underline-on-hover {
+  position: relative;
+  color: inherit;
+  text-decoration: none;
+  color: #FD7E14;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.underline-on-hover::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 2px;
+  left: 0;
+  background-color: currentColor;
+  transition: width 0.3s ease-in-out;
+}
+
+.underline-on-hover:hover::after {
+  width: 100%;
+}
+
+.personal-details {
+  padding: 35px 5px 15px 45px;
+}
+
+.personal-details h4 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.personal-details span {
+  font-size: 17px;
+  font-weight: 400;
+  margin-left: 5px;
+  color: #4c4d4d;
+}
+
+.personal-details h4 span a {
+  cursor: pointer;
+  color: #FD7E14;
+}
+
+.personal-details hr {
+  width: 350px;
+  height: 0.5px;
+  background-color: rgb(229, 233, 237);
+  border: none;
+  margin: 17px 0px;
+}
+
+.personal-details a button {
+  cursor: pointer;
+  padding: 17px 40px;
+  border: none;
+  border-radius: 30px;
+  margin-top: 0.5rem;
+  color: #fff;
+  background-color: #FD7E14;
+}
+
+/* Services */
+.services {
+  padding: 3rem 4rem;
+  background-color: #F8F9FA;
+}
+
+.service-bg-text {
+  position: relative;
+}
+
+.service-bg-text h1 {
+  color: #EEF0F1;
+}
+
+.services-above-text {
+  position: absolute;
+  top: 232%;
+  left: 59.5%;
+  transform: translate(-50%, -50%);
+}
+
+.services-sections {
+  display: flex;
+  margin-top: 3.2rem;
+}
+
+.service-section {
+  margin-left: 25px;
+}
+
+.service {
+  display: flex;
+  margin-bottom: 3rem;
+
+}
+
+.service .service-img i {
+  font-size: 24px;
+  color: #FD7E14;
+}
+
+.fa-solid,
+.fas {
+  display: inline-block;
+  font-size: 24px;
+  background-color: #fff;
+  color: #FD7E14;
+  padding: 22px;
+  border-radius: 10%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.service .service-text {
+  margin-left: 20px;
+}
+
+.service .service-text h1 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.service-text p {
+  line-height: 30px;
+  padding: 0;
+  margin-top: 10px;
 }
 
 @media screen and (min-width: 576px) {}
