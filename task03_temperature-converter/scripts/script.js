@@ -1,11 +1,9 @@
 "use strict";
 
-// global variables
+const celsiusInput = document.getElementById("celsius");
+const fahrenheitInput = document.getElementById("fahrenheit");
+const kelvinInput = document.getElementById("kelvin");
 
-// functions
-const init = () => {};
-
-//event listeners
-
-// initial settings
-init();
+celsiusInput.addEventListener("input", updateTemperatures);
+fahrenheitInput.addEventListener("input", updateTemperatures);
+kelvinInput.addEventListener("input", updateTemperatures);
