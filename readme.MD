@@ -20,17 +20,23 @@ Welcome to the OIBSIP Internship Tasks repository! This repository contains thre
 
 ## Tasks Overview
 
-### Task 1: Landing Page | [Live Demo.](https://oibsip-task01-landing-page.netlify.app/)
+### Task 1: Landing Page
+
+- [Live Demo.](https://oibsip-task01-landing-page.netlify.app/)
 
 **Description:**  
 The Landing Page task involves creating a visually appealing and responsive landing page for a hypothetical product or service. This task demonstrates skills in layout design and responsive web design.
 
-### Task 2: Personal Portfolio | [Live Demo. Currently Unavailable]()
+### Task 2: Personal Portfolio
+
+- [Live Demo.](https://oibsip-task02-personal-portfolio.netlify.app/)
 
 **Description:**  
 The Personal Portfolio task is about designing and developing a personal portfolio website. This portfolio showcases personal projects, skills, and contact information, serving as an online resume. The task highlights abilities in web design and content organization.
 
-### Task 3: Temperature Converter | [Live Demo. Currently Unavailable]()
+### Task 3: Temperature Converter
+
+- [Live Demo. unavailable]()
 
 **Description:**  
 The Temperature Converter task involves building a web application that converts temperatures between Celsius, Fahrenheit, and Kelvin. This task focuses on creating interactive and functional web applications using JavaScript for dynamic content manipulation.
